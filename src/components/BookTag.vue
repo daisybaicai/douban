@@ -25,6 +25,7 @@
 
 <script>
 import {mapState, mapActions} from 'vuex'
+// import axios from 'axios'
 export default {
   computed: {
     ...mapState({
@@ -34,7 +35,10 @@ export default {
     })
   },
   created () {
-    console.log(this.$store.state.books.a)
+    // console.log(this.$store.state.books.a)
+    // axios.get('/api2/aser').then((res) => {
+    //   console.log(res.data)
+    // })
   },
   data () {
     return {
